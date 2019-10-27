@@ -5,12 +5,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Employee_Management.Models;
+using Employee_Management.ViewModels;
 
 namespace Employee_Management.Controllers
 {
     public class HomeController : Controller
     {
-        private IEmployeeRepository _employeeRepository;
+        private readonly IEmployeeRepository _employeeRepository;
 
         // Inject IEmployeeRepository using Constructor Injection
         public HomeController(IEmployeeRepository employeeRepository)
@@ -22,6 +23,16 @@ namespace Employee_Management.Controllers
         public string Index()
         {
             return _employeeRepository.GetEmployee(1).Name;
+        }
+
+        public IActionResult Details()
+        {
+            HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
+            {
+                Employee = _employeeRepository.GetEmployee(1),
+                PageTitle = "Employee Details"
+            };
+            return View(homeDetailsViewModel);
         }
         //public IActionResult Index()
         //{

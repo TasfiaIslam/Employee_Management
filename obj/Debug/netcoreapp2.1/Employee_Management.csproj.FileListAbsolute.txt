@@ -30,3 +30,4 @@ D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcore
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Employee_Management.dll
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Employee_Management.pdb
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Employee_Management.csproj.CopyComplete
+D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.g.cshtml.cs
