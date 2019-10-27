@@ -20,9 +20,10 @@ namespace Employee_Management.Controllers
         }
 
         // Retrieve employee name and return
-        public string Index()
+        public IActionResult Index()
         {
-            return _employeeRepository.GetEmployee(1).Name;
+            var model =  _employeeRepository.GetAllEmployee();
+            return View(model);
         }
 
         public IActionResult Details()
@@ -34,10 +35,6 @@ namespace Employee_Management.Controllers
             };
             return View(homeDetailsViewModel);
         }
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
 
         public IActionResult About()
         {
