@@ -26,7 +26,7 @@ namespace Employee_Management.Models
 
         public Employee GetEmployee(int Id)
         {
-            return this._employeeList.FirstOrDefault(e => e.Id == Id);
+            return this._employeeList.Find(e => e.Id == Id);
         }
     }
 }

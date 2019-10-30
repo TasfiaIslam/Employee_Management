@@ -35,3 +35,8 @@ body {
         display: none;
     }
 }
+
+/*Make all buttons 75px in width*/
+.btn {
+    width: 75px;
+}

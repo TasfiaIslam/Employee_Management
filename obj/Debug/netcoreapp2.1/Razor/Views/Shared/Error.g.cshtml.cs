@@ -23,8 +23,13 @@ using Employee_Management.Models;
 
 #line default
 #line hidden
+#line 3 "D:\Visual Studio Codes\Employee Management\Employee_Management\Views\_ViewImports.cshtml"
+using Employee_Management.ViewModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"583387379a597938339285f5a623245873b0a91c", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dbabab190cfaa113efedf3b18d33610b42ccf075", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d35d1438323c8b93f68b3cfa269ab033fb3efe2e", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

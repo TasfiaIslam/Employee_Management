@@ -68,7 +68,10 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+    @if (IsSectionDefined("Scripts"))
+    {
+        @RenderSection("Scripts", required: false)
+    }
 
-    @RenderSection("Scripts", required: false)
 </body>
 </html>
