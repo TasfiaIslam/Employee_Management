@@ -30,6 +30,6 @@ D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcore
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Employee_Management.pdb
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Employee_Management.csproj.CopyComplete
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.g.cshtml.cs
-D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index_old.g.cshtml.cs
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout1.g.cshtml.cs
+D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Create.g.cshtml.cs

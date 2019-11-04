@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -15,6 +16,7 @@ namespace Employee_Management
 {
     public class Startup
     {
+    
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -32,7 +34,10 @@ namespace Employee_Management
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
+            services.AddDbContextPool<AppDbContext>(
+                options => options.UseSqlServer(Configuration.GetConnectionString("EmployeeDbConnection")));
+
+            services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
