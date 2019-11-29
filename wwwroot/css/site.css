@@ -45,3 +45,8 @@ body {
     height:200px;
     width:auto;
 }
+
+/* Scoped so that we can target specific images. */
+.img-fluid.img-full-width {
+    width: 100%;
+}

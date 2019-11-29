@@ -33,3 +33,5 @@ D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcore
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout1.g.cshtml.cs
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Create.g.cshtml.cs
+D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
+D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\EmployeeNotFound.g.cshtml.cs
