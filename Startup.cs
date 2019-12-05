@@ -50,9 +50,9 @@ namespace Employee_Management
             }
             else
             {
-                //app.UseExceptionHandler("/Home/Error");
+                //app.UseExceptionHandler("/Error");
                 //app.UseHsts();
-                app.UseStatusCodePagesWithRedirects("/Error/{0}");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
             }
 
             app.UseHttpsRedirection();
