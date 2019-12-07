@@ -71,7 +71,7 @@ using Employee_Management.ViewModels;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(72, 103, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fa09e86f766e47399446f1fbf4c648ad", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91b1e215519d441bbd7231a32fe62b78", async() => {
                 BeginContext(78, 90, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>NotFound</title>\r\n");
                 EndContext();
@@ -91,7 +91,7 @@ using Employee_Management.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(177, 197, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79ce155ecf14406ba06b1084c642ac4a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78b64e5ec9194aa8a62c727144dc6ec2", async() => {
                 BeginContext(183, 10, true);
                 WriteLiteral("\r\n    <h1>");
                 EndContext();
@@ -126,7 +126,7 @@ using Employee_Management.ViewModels;
                 WriteLiteral("</h1>\r\n    ");
                 EndContext();
                 BeginContext(279, 86, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b43e3a9e6ad4429ea1afeed4fe2b36b6", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a6c53ffdc194314ba508e602b338337", async() => {
                     BeginContext(323, 38, true);
                     WriteLiteral("Click here to navigate to the homepage");
                     EndContext();

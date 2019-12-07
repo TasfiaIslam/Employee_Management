@@ -36,3 +36,5 @@ D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcore
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\EmployeeNotFound.g.cshtml.cs
 D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Shared\NotFound.g.cshtml.cs
+D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+D:\Visual Studio Codes\Employee Management\Employee_Management\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
