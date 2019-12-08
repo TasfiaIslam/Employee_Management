@@ -9,9 +9,11 @@ using Employee_Management.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Employee_Management.Controllers
 {
+
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -24,6 +26,7 @@ namespace Employee_Management.Controllers
             this.hostingEnvironment = hostingEnvironment;
         }
 
+        [AllowAnonymous]
         // Retrieve employee name and return
         public IActionResult Index()
         {
@@ -31,6 +34,7 @@ namespace Employee_Management.Controllers
             return View(model);
         }
 
+        [AllowAnonymous]
         public IActionResult Details(int id)
         {
             Employee employee = _employeeRepository.GetEmployee(id);
@@ -92,7 +96,7 @@ namespace Employee_Management.Controllers
        // Through model binding, the action method parameter
        // EmployeeEditViewModel receives the posted edit form data
         [HttpPost]
-       public IActionResult Edit(EmployeeEditViewModel model)
+        public IActionResult Edit(EmployeeEditViewModel model)
         {
             // Check if the provided data is valid, if not rerender the edit view
             // so the user can correct and resubmit the edit form
