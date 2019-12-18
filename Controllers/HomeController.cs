@@ -25,6 +25,12 @@ namespace Employee_Management.Controllers
             _employeeRepository = employeeRepository;
             this.hostingEnvironment = hostingEnvironment;
         }
+        [AllowAnonymous]
+        // Retrieve employee name and return
+        public IActionResult Homepage()
+        {
+            return View();
+        }
 
         [AllowAnonymous]
         // Retrieve employee name and return

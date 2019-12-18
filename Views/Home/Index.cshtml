@@ -4,7 +4,8 @@
     ViewBag.Title = "Employee List";
 }
 <br />
-<img class="img-fluid img-full-width" src="~/images/banner2.svg" alt="WorkPlace">
+@*<img class="img-fluid img-full-width" src="~/images/banner2.svg" alt="WorkPlace">*@
+@*<img name="slide" width="1200" height="600" />*@
 <div class="card-deck">
     @foreach (var employee in Model)
     {
@@ -22,3 +23,27 @@
         </div>
     }
 </div>
+@*@section Scripts {
+    <script>
+        var i = 0;
+        var images = [];
+        var time = 5000;
+
+        images[0] = '~/images/banner7.jpg';
+        images[1] = '~/images/banner8.jpg';
+
+        function changeImage() {
+            document.slide.src = images[i];
+
+            if (i < images.length - 1) {
+                i++;
+            }
+            else {
+                i = 0;
+            }
+
+            setTimeout("changeImage()", time);
+        }
+        window.onload(changeImage);
+    </script>
+}*@
