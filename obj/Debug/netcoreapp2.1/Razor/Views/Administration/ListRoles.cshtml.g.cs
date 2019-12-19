@@ -83,7 +83,7 @@ using Microsoft.AspNetCore.Identity;
             WriteLiteral("    ");
             EndContext();
             BeginContext(125, 131, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c1cea359d2d4352857505a40fe877e7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ba15d23bfffe4e0c8124b727ee237995", async() => {
                 BeginContext(240, 12, true);
                 WriteLiteral("Add new role");
                 EndContext();
@@ -158,7 +158,7 @@ else
             ");
             EndContext();
             BeginContext(1025, 165, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e3a9c490f034a80b8258bcdbcf2a8c4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52714f9b55e84291b16284637658c0f8", async() => {
                 BeginContext(1143, 43, true);
                 WriteLiteral("\r\n                Create Role\r\n            ");
                 EndContext();
