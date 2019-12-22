@@ -162,7 +162,10 @@ namespace Employee_Management.Controllers
 
             return uniqueFileName;
         }
-
+        public IActionResult Task()
+        {
+            return View();
+        }
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
