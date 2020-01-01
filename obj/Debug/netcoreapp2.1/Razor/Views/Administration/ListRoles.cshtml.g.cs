@@ -84,7 +84,7 @@ using Microsoft.AspNetCore.Identity;
             WriteLiteral("    ");
             EndContext();
             BeginContext(125, 131, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be879312c61940cb8ecce29efbbb0a53", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1ca3d98e294d4bdfb3ca50421c19b357", async() => {
                 BeginContext(240, 12, true);
                 WriteLiteral("Add new role");
                 EndContext();
@@ -140,7 +140,7 @@ using Microsoft.AspNetCore.Identity;
             WriteLiteral("</h5>\r\n            </div>\r\n            <div class=\"card-footer\">\r\n                ");
             EndContext();
             BeginContext(596, 133, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc112014d1be4921a8c09c3baaa1e809", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4f4655309c8a47fbab91a0787c83d705", async() => {
                 BeginContext(721, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -197,7 +197,7 @@ else
             ");
             EndContext();
             BeginContext(1114, 165, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "691eb393c8c94a9da699258307744d96", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d25369670c1149748dc576b7cd92a9fa", async() => {
                 BeginContext(1232, 43, true);
                 WriteLiteral("\r\n                Create Role\r\n            ");
                 EndContext();

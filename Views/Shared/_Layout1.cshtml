@@ -25,7 +25,7 @@
     <link href="~/css/site.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
 </head>
-<body style="padding-top:unset; padding-bottom:unset"  
+<body style="padding-top:unset; padding-bottom:unset"
       class="hold-transition skin-blue sidebar-mini">
 
     <!-- Navigation -->
@@ -53,9 +53,16 @@
                     </li>
                     @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                     {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-action="ListRoles" asp-controller="Administration">
-                            Manage Roles</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                                Manage
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-controller="Administration" 
+                                   asp-action="ListUsers">Users</a>
+                                <a class="dropdown-item"  asp-controller="Administration" 
+                                   asp-action="ListRoles">Roles</a>
+                            </div>
                         </li>
                     }
 
@@ -87,47 +94,47 @@
 
     <div class="container">
         @*<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
-            <a class="navbar-brand" asp-action="Index" asp-controller="Home">
-                <img src="~/images/logo.png" height="30" width="30" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a asp-action="Create" asp-controller="Home" class="nav-link">CreateEmployee</a>
-                    </li>
-                    <li class="nav-item">
-                        <a asp-action="Index" asp-controller="Home" class="nav-link">EmployeeList</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    @if (signInManager.IsSignedIn(User))
-                    {
+                <a class="navbar-brand" asp-action="Index" asp-controller="Home">
+                    <img src="~/images/logo.png" height="30" width="30" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <form method="post" asp-action="logout" asp-controller="account">
-                                <button type="submit" class="nav-link btn btn-link py-0" style="width:auto">
-                                    Logout @User.Identity.Name
-                                </button>
-                            </form>
-                        </li>
-                    }
-                    else
-                    {
-                        <li class="nav-item">
-                            <a asp-action="Register" asp-controller="Account" class="nav-link">Register</a>
+                            <a asp-action="Create" asp-controller="Home" class="nav-link">CreateEmployee</a>
                         </li>
                         <li class="nav-item">
-                            <a asp-action="Login" asp-controller="Account" class="nav-link">Login</a>
+                            <a asp-action="Index" asp-controller="Home" class="nav-link">EmployeeList</a>
                         </li>
-                        <li class="nav-item">
-                            <a asp-action="CreateRole" asp-controller="Administration" class="nav-link">CreateRole</a>
-                        </li>
-                    }
-                </ul>
-            </div>
-        </nav>*@
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <form method="post" asp-action="logout" asp-controller="account">
+                                    <button type="submit" class="nav-link btn btn-link py-0" style="width:auto">
+                                        Logout @User.Identity.Name
+                                    </button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a asp-action="Register" asp-controller="Account" class="nav-link">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-action="Login" asp-controller="Account" class="nav-link">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-action="CreateRole" asp-controller="Administration" class="nav-link">CreateRole</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </nav>*@
         <div>
             @RenderBody()
         </div>
